@@ -1,11 +1,19 @@
 import click
 
+
 __version__ = "0.1.1-SNAPSHOT"
 
 
 @click.command("bonjour")
 def bonjour():
     click.echo("bonjour monde")
+
+
+
+@click.command("guten-tag")
+def guten_tag():
+    click.echo("guten tag")
+
 
 
 @click.command("version")
